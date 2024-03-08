@@ -1,0 +1,27 @@
+.contact-us-banner {
+    background-image: url('../../../assets/Rectangle\ 5553.png');
+    background-size: cover;
+    background-position: cover;
+
+    height: 450px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    border: 2px solid red;
+}
+
+.COntactUs-banner-content {
+    padding: 20px;
+}
+.ConTACTWrapper {
+    display: flex;
+  }
+  
+  .contaCT-form {
+    width: 60%;
+  }
+  
+  .contaCT-information {
+    width: 40%;
+  }
+  

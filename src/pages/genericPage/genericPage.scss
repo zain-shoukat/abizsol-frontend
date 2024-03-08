@@ -1,0 +1,48 @@
+.main-GenericPage-page {
+  background-image: url("../../assets/genericpg.png");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  .inner-GenericPage-bg {
+    padding: 100px;
+  }
+
+  .main-name-GenericPage {
+    font-family: Prompt;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 91px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  .subheading-GenericPage {
+    font-family: Jost;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+    width: 60%;
+  }
+}
+.main-GenericPage-page button {
+  background-color: #10baac;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1000px;
+  /* border-radius: 100px; */
+
+  cursor: pointer;
+}
+
+.main-GenericPage-page:hover {
+  background-color: #0a8b7e;
+}

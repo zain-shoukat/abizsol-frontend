@@ -1,0 +1,112 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /* padding: 70px; */
+}
+
+
+
+.left-div {
+    position: relative; 
+    flex: 1;
+  }
+  
+  .logo-image {
+    position: absolute; 
+ margin: 10px;
+    z-index: 1; 
+  }
+  
+.right-div {
+  flex: 1;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 64vh;
+  flex: 1;
+  background-color: #09496D;
+  padding: 20px;
+}
+
+/* .right-div input,
+.right-div textarea {
+  width: calc(100% - 16px);
+  padding: 8px 8px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+} */
+
+/* .right-div input:focus,
+.right-div textarea:focus {
+  border-bottom: 1px solid #10baac;
+} */
+.right-div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+
+
+
+.right-div button {
+  background-color: #10baac;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right-div button:hover {
+  background-color: #0b7d73;
+}
+
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-div {
+  flex: 1;
+}
+
+
+.right-content {
+  text-align: left;
+width: 80%;
+
+}
+
+.contact-heading {
+  color: white;
+  font-family: FONTSPRING DEMO - Proxima Nova Cond;
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.contact-description {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+

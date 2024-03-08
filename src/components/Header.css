@@ -1,0 +1,44 @@
+.header-Container {
+  background-color: #09496d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+}
+
+/* .header-Container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #09496d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  z-index: 1000;
+} */
+
+.icon-Container a {
+  margin-right: 10px;
+}
+
+.right-Content {
+  display: flex;
+  align-items: center;
+}
+
+.right-Content span,
+.right-Content a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.header-Container svg {
+  color: white;
+  vertical-align: middle;
+  margin-right: 5px;
+}

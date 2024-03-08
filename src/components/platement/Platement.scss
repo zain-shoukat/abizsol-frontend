@@ -1,0 +1,85 @@
+.platementWrapper{
+  background-color: #F7F7F7;
+  margin: 10px;
+}
+
+.placement-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.placement-content {
+  text-align: center;
+  margin-bottom: 20px;
+  // border: 2px solid red;
+  width: 65%;
+}
+.placement-content h2 {
+  font-family: FONTSPRING DEMO - Proxima Nova Cond;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #004059;
+}
+
+.placement-content h3 {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #455a64;
+}
+.placement-content p {
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #263238;
+}
+
+.placement-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  // border: 2px solid red;
+}
+
+.placement-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.placement-accordion {
+  width: 50%;
+  margin-top: 20px;
+  // border: 2px solid red;
+  // height: 30vh;
+}
+
+
+.ant-collapse-content-box {
+  padding: 10px;
+}
+.placement-accordion .ant-collapse-header {
+  position: relative;
+}
+
+.placement-accordion .ant-collapse-arrow {
+  position: absolute;
+  right: 16px; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.placement-accordion .ant-collapse-item {
+  border-bottom: none;
+}
