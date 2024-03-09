@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
+// import { useNavigate } from "react-router-dom";
 import abizSol from "../../assets/abisol.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
@@ -24,11 +25,14 @@ const Navbar: React.FC<NavbarProps> = ({ logoUrl }) => {
   const [prevHoveredItem, setPrevHoveredItem] = useState<any>(null);
 
 
+  // const navigateContactPage = useNavigate();
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://d4d7-119-73-112-193.ngrok-free.app/api/navigations?populate=*", {
+          `${apiUrl}/api/navigations?populate=*`, {
+
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -81,7 +85,9 @@ const Navbar: React.FC<NavbarProps> = ({ logoUrl }) => {
       // setHoveredItem(null)
     }
   };
-
+  const handleContactUsClick = () => {
+    // navigateContactPage('/contact-us');
+  };
   return (
     <>
       <nav className="navbar">
@@ -152,7 +158,7 @@ const Navbar: React.FC<NavbarProps> = ({ logoUrl }) => {
           </ul>
         </div>
         <div className="navbar-right">
-          <button className="contact-button">Contact Us</button>
+          <button className="contact-button" onClick={handleContactUsClick}>Contact Us</button>
         </div>
       </nav>
     </>

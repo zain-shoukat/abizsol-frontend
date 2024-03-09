@@ -9,6 +9,8 @@ import OurWorkProgress from '../components/ourWorkProgress/OurWorkProgress'
 import ContactUs from '../components/contactUs/ContactUs'
 import Footer from '../components/footer/Footer'
 import apiUrl from "../config/strApiUrl";
+import IndustriesWeServe from '../components/industriesWeServe/IndustriesWeServe';
+import WhyWorkAT from '../components/whyWorkAT/WhyWorkAT';
 
 const LandingPage = () => {
     const [companyInfo, setCompanyInfo] = useState<{
@@ -48,7 +50,7 @@ const LandingPage = () => {
     }, []);
     return (
         <>
-            {/* <Header /> */}
+
             <Header
                 companyEmail={companyInfo?.companyEmail}
                 companyNumber={companyInfo?.companyNumber}
@@ -60,9 +62,11 @@ const LandingPage = () => {
             <Banner />
             <LogoRow />
             <WhatWeDo />
+            <IndustriesWeServe />
             <OurWorkProgress />
             <ContactUs />
-            <Footer about={companyInfo?.about || ''}/>
+            <WhyWorkAT />
+            <Footer about={companyInfo?.about || ''} />
 
 
 

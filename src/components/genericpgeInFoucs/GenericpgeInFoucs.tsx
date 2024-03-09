@@ -123,15 +123,16 @@ const GenericpgeInFoucs = () => {
 
     useEffect(() => {
         fetch(`${apiUrl}/api/generic-focus-cards?populate=*`)
-
             .then(response => response.json())
             .then(data => {
+                console.log(data); // Log the response data
                 setCardsData(data.data);
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
             });
     }, []);
+    
 
     return (
         <div className="genericpgeInFoucs">
@@ -147,9 +148,9 @@ const GenericpgeInFoucs = () => {
             <div className="card-row">
                 {cardsData.map(card => (
                     <div className='cardInFoucs' key={card.id}>
-                        <img src={card.attributes.image.data.url} alt={card.attributes.heading} />
-                        <h2>{card.attributes.heading}</h2>
-                        <p>{card.attributes.description}</p>
+                        <img src={card.attributes?.image?.data?.url} alt={card.attributes?.heading} />
+                        <h2>{card.attributes?.heading}</h2>
+                        <p>{card.attributes?.description}</p>
                     </div>
                 ))}
             </div>

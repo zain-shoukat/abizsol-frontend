@@ -40,6 +40,7 @@ const Banner: React.FC = () => {
         <>
           <img className="bannerVIdeo" src={banner} alt="Banner" />
           {/* <img className="banner-video" src={bannerData.image.url} alt="Banner" /> */}
+          
           <div className="overlay"></div>
 
           <div className="bannercONtent">

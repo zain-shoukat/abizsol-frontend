@@ -1,12 +1,14 @@
 .b_g_footer {
   background: white;
   background-size: cover;
+
 }
 
 .Footer {
   padding: 70px 25px 25px 25px;
-
   margin: auto;
+  margin-top: 20px;
+  /* margin-top: 30%; */
 }
 
 .m_l_120px {

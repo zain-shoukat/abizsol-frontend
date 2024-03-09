@@ -1,0 +1,152 @@
+.form-conversation-wrapper {
+    background-image: url("../../../assets/greenbg.svg");
+    background-size: cover;
+    background-position: center;
+    height: 89.9vh;
+    display: flex;
+    border-radius: 17px 17px 100px 17px;
+  }
+  
+  .wrapper-form {
+    margin: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    left: 8%;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0 10px 100px 10px; /* top-right, top-left, bottom-right, bottom-left */
+  }
+  
+  .start-converation-txt {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.54px;
+    color: #101828;
+  }
+  
+  .whitebg-form {
+    background-color: white;
+    height: 88vh;
+    width: 65%;
+    border-radius: 10px 0px 0px 0px;
+  }
+  
+  .bluebg-form {
+    background-image: url("../../../assets/blueside.svg");
+    width: 35%;
+    background-size: cover;
+    background-position: center;
+    height: 88vh;
+    border-radius: 0 10px 100px 0px; /* top-right, top-left, bottom-right, bottom-left */
+  }
+  
+  .flex-input-name {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .main-input-name {
+    padding-bottom: 5px;
+  }
+  
+  .email-input {
+    padding-top: 20px;
+  }
+  
+  .main-input-name {
+    color: #475569;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .text-area-conatactus {
+    padding-top: 30px;
+  }
+  
+  .submitform-btn {
+    padding-top: 30px;
+  }
+  
+  .btn-submit-txt {
+    padding: 10px 50px;
+    color: #ffffff;
+    background-color: #10baac;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+}
+
+.btn-submit-txt:hover {
+  background-color: #0a8b7e;
+}
+  
+  .inner-wrapper-form {
+    padding: 50px;
+  }
+  
+  .form-imagebg {
+    height: 50vh;
+    margin-top: 150px;
+  }
+  .contact-info-txt {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 30px;
+  }
+  
+  .info-display-list {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .iconsize-color {
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .iconfront-txt {
+    font-family: "Microsoft Sans Serif", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .linkweb-flex {
+    display: flex;
+    gap: 20px;
+  }
+
+  .icon-link {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-link:hover {
+    transform: scale(1.5);
+}
+  
+  .error{
+    color: red;
+    font-family: "Microsoft Sans Serif", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+  }

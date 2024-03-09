@@ -38,15 +38,15 @@ const WorkProcessComponent = () => {
                 <div className="work-process-left-content">
                     {processData && (
                         <>
-                            <h2>{processData.heading}</h2>
-                            <h3>{processData.subHeading}</h3>
-                            <p>{processData.description}</p>
+                            <h2>{processData?.heading}</h2>
+                            <h3>{processData?.subHeading}</h3>
+                            <p>{processData?.description}</p>
                         </>
                     )}
                 </div>
 
             </div>
-            {/* <div className="your-row-container">
+            <div className="your-row-container">
                 <div className="column">
                     <img src={Rectangle55991} alt="Rectangle55991 1" />
                     <h3>Congrative business  </h3>
@@ -59,15 +59,15 @@ const WorkProcessComponent = () => {
                     <img src={Rectangle55991} alt="Rectangle55991 3" />
                     <h3>Congrative business  </h3>
                 </div>
-            </div> */}
-            <div className="your-row-container">
+            </div>
+            {/* <div className="your-row-container">
                 {cardData.map(item => (
                     <div className="column" key={item.id}>
-                        <img src={item.attributes.image.data.url} alt={`Rectangle55991 ${item.id}`} />
+                        <img src={item.attributes?.image?.data.url} alt={`Rectangle55991 ${item.id}`} />
                         <h3>{item.attributes.name}</h3>
                     </div>
                 ))}
-            </div>
+            </div> */}
         </>
 
     );

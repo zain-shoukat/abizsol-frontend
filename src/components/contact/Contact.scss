@@ -1,0 +1,33 @@
+.main-contactus-page {
+    background-image: url("../../assets/contact_bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+  
+    .inner-contactus-bg {
+      padding: 100px;
+    }
+  
+    .main-name-contactus {
+      font-family: Prompt;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 91px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #ffffff;
+    }
+  
+    .subheading-contactus {
+      font-family: Jost;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #ffffff;
+      width: 60%;
+    }
+  }
+  

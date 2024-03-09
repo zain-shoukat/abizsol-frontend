@@ -1,0 +1,43 @@
+.industries-container {
+    display: flex;
+  }
+  
+  .left-section {
+    width: 30%;
+    background-color: #0088CC;
+
+  }
+  
+  .right-section {
+    width: 70%;
+  }
+  
+
+  .industries-gif {
+    width: 100%; 
+    /* height: auto;  */
+  }
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white; 
+  }
+  
+  .company-logo {
+    width: 100px; 
+    height: auto;
+  }
+  
+  .company-logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 64px; 
+    margin: 10px 0; 
+  }
+  

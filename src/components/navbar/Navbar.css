@@ -120,21 +120,19 @@ nav {
 }
 
 
-.mega-box .conteNt {
-  /* background: #242526; */
+/* .mega-box .conteNt {
+  background: #242526;
   background-color: white;
   padding: 25px 20px;
-  /* display: flex; */
-  /* width: 99%; */
-  /* height: 50vh; */
+  display: flex;
+  width: 99%;
+  height: 50vh;
+  border: 2px solid red;
 
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-}
+} */
 
 
-nav input {
-  display: none;
-}
 
 
 
@@ -199,11 +197,11 @@ p {
   background-color: white;
   width: 300px;
   padding: 10px;
-  margin-top: 2%;
+  margin-top: 5%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   overflow-y: auto;
-  /* border: 2px solid red; */
+  margin-left: 4%;
 }
 
 
